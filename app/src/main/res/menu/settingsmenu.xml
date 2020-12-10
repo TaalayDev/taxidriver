@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Настройки" />
+    <item
+        android:icon="@android:drawable/stat_notify_error"
+        android:title="Alert" />
+    <item
+        android:id="@+id/menu_server_settings"
+        android:title="Server" />
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">2DOS Водитель</string>
+    <string name="title_activity_taxi">Taxi</string>
+    <string name="title_home">Заказы</string>
+    <string name="title_dashboard">Чат</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="nav_map">Карта</string>
+    <string name="ord_street">Get order from street</string>
+    <string name="time">Время:</string>
+    <string name="connecting">Подключение</string>
+
+    <string name="notification_text">You have new messages</string>
+    <string name="chanel_name">Taxi Chanel</string>
+    <string name="chanel_description">Taxi Chanel</string>
+
+    <string name="login">Вход</string>
+    <string name="button_login">войти</string>
+    <string name="button_reg">регистрация</string>
+    <string name="login_name">Тел. номер</string>
+    <string name="password">Пароль</string>
+    <string name="checking__text">Проверка…</string>
+
+    <string name="err_no_balance">Упс! Похоже вам ограничен доступ или у вас недостаточно средств на балансе. \nОбратитесь к админстратору</string>
+
+    <string name="warn_frag_text">Вы послали сигнал тревоги</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mapbox_code">pk.eyJ1IjoidGFhbGF5ZGV2IiwiYSI6ImNrM3JyemJqbzBkMnAzaHBzaTNtbWE0eDYifQ.6jS_pnpk66YaDc2EabZF4A</string>
+    <string name="mapbox_token_1_code">sk.eyJ1IjoidGFhbGF5ZGV2IiwiYSI6ImNrM3JzMmFiZDBlOWYzcXBjbm9kamQ0Y3gifQ.vrjb3LrXCKKAcyc246ogQg</string>
+</resources>

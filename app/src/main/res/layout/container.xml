@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/states"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/header_button"
+            android:drawableTop="@drawable/ic_action_menu"
+            android:elevation="4dp"
+            android:onClick="onViewClick"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Меню"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp"
+            android:translationZ="4dp" />
+
+        <Button
+            android:id="@+id/button_sos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sos_button"
+            android:drawableTop="@drawable/ic_warning"
+            android:elevation="4dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Тревога"
+            android:textSize="12sp"
+            android:translationZ="4dp" />
+
+        <Button
+            android:id="@+id/button_ratsia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/header_button"
+            android:drawableTop="@drawable/ic_mic"
+            android:elevation="4dp"
+            android:onClick="onViewClick"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Рация"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp"
+            android:translationZ="4dp" />
+
+        <Button
+            android:id="@+id/button_order_street"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/header_button"
+            android:drawableTop="@drawable/ic_pan_tool"
+            android:elevation="4dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="С УЛИЦЫ"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp"
+            android:translationZ="4dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/states">
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

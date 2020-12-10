@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBg">#222222</color>
+    <color name="colorBlue">#00FFFF</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorRed">#FF0000</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="appThemeColor">#37474F</color>
+    <color name="colorGray">#BBBBBB</color>
+    <color name="searchTextColor">#666666</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="floroGreen">#66CD00</color>
+
+    <color name="colorBottomSheet">#4B4B4B</color>
+
+    <color name="m_color">#1E8CAB</color>
+</resources>
